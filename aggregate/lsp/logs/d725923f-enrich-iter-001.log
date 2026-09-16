@@ -1,0 +1,14 @@
+[2026-09-16T09:10:50Z] === ENRICH ITERATION 1 START | repo=leodido/go-urn sha=d725923f ===
+[2026-09-16T09:10:50Z] [iter=1] PHASE START: enrich repo=leodido/go-urn sha=d725923f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d725923f-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d725923fe33ce69c89b9e2033d069099b498224f.nq.gz
+[2026-09-16T09:10:52Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-16T09:10:54Z] [iter=1] AST store loaded triples=234939 load_secs=2 mem_mb=418 MB
+[2026-09-16T09:10:54Z] [iter=1] Step 2: Finding LSP targets mem_mb=418 MB
+[2026-09-16T09:10:54Z] [iter=1] LSP targets found call_sites=506 imports=0 extends=0 implements=0 secs=0
+[2026-09-16T09:10:54Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=418 MB
+[2026-09-16T09:10:55Z] [iter=1] Position index built positions=13971 nodes_with_types=15153 secs=1 mem_mb=418 MB
+[2026-09-16T09:10:55Z] [iter=1] Step 3: Starting LSP resolution mem_mb=418 MB already_completed_types=[] already_completed_files=0
+[2026-09-16T09:10:55Z] [iter=1] Resolving target type target_type=call_site count=506
+[2026-09-16T09:10:56Z] [iter=1] Target type resolved target_type=call_site resolved=0 errors=506 secs=1 mem_mb=418 MB
+[2026-09-16T09:10:56Z] [iter=1] Step 5: Writing final enrichment file triples=0
+[2026-09-16T09:10:56Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d725923fe33ce69c89b9e2033d069099b498224f.nq.gz size_kb=0
+[2026-09-16T09:10:56Z] [iter=1] PHASE END: enrich elapsed_s=5 elapsed_min=0.1 total_triples=0
